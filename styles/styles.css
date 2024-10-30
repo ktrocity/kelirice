@@ -1,5 +1,64 @@
+a.filter {
+color: #2B2B2B;
+display: inline-block;
+padding: 20px;
+text-decoration: none;
+}
+
+a.filter:visited {
+color: #ff0000;
+display: inline-block;
+padding: 20px;
+text-decoration: none;
+}
+
+a.nav-link:link {
+color: #2B2B2B;
+display: inline-block;
+padding: 20px;
+text-decoration: none;
+}
+
+a.nav-link:visited {
+color: #2B2B2B;
+display: inline-block;
+padding: 20px;
+text-decoration: none;
+}
+
 body {
 background-color: #f09609;
 display: flex;
 flex-direction: column;
+font-family: -apple-system, BlinkMacSystemFont, "Century Gothic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-weight: 400;
+}
+
+.flex{
+display: flex;
+justify-content: center;
+margin: 50px;
+}
+
+.header{
+display: flex;
+justify-content: end;
+}
+
+.title{
+display: block;
+font-size: 180px;
+justify-self: center;
+text-align: center;
+}
+
+.work{
+padding: 10px 0px;
+}
+
+.wrap{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin: 0px 100px;
 }
