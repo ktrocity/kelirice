@@ -52,6 +52,13 @@ display: flex;
 justify-content: center;
 }
 
+.footer{
+display: flex;
+border-top: solid 1px #000;
+justify-content: space-around;
+padding: 20px 0px;
+}
+
 .header{
 display: flex;
 justify-content: end;
