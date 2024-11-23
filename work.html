@@ -4,10 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>hi, I'm Keli</title>
-
   <link rel="stylesheet" href="styles/styles.css">
-
 </head>
+    
 <body>
     
 <div class="header">
@@ -15,34 +14,46 @@
     <a class="nav-link" href="work.html"><h3>MY WORK</h3></a>
 </div>   
     
-<div class="title">MY WORK</div>
+<div class="title white">MY WORK</div>
     
-<div class="flex">
-    <p>girls just wanna have fun.</p>    
+<div class="flex" style="max-width: 1000px;">
+    <p>My work spans creative genres to craft designs that captivate, inspire, and engage. From vibrant illustrations and intuitive user experiences to immersive exhibit designs and cutting-edge technology solutions, I bring a multidisciplinary approach to every project. By blending artistry with functionality, I create cohesive narratives that transcend boundaries, meeting the unique needs of each audience. Let’s collaborate to transform bold ideas into impactful, genre-defying designs.</p>    
 </div>
     
 <div class="flex">
-    <a class="filter" href="work.html">ILLUSTRATIONS</a>  
-    <a class="filter" href="work.html">UX/UI</a>   
-    <a class="filter" href="work.html">EXHIBIT DESIGN</a>  
-    <a class="filter" href="work.html">TECHNOLOGY DESIGN</a>   
-    <a class="filter" href="work.html">BUILT ENVIRONMENTS</a>   
+    <button onclick="filterImages(this, 'ilu')">ILLUSTRATIONS</button>  
+    <button onclick="filterImages(this, 'ux')">UX/UI</button>   
+    <button onclick="filterImages(this, 'exhibit')">EXHIBIT DESIGN</button>  
+    <button onclick="filterImages(this, 'tech')">TECHNOLOGY DESIGN</button>   
+    <button onclick="filterImages(this, 'built')">BUILT ENVIRONMENTS</button>
+    <button onclick="filterImages(this, 'all')">VIEW ALL</button> 
 </div>
     
 <div class="wrap">
-    <img class="work" src="images/square.png" style="width: 200px; height: auto;">
-    <img class="work" src="images/square.png" style="width: 200px; height: auto;">
-    <img class="work" src="images/square.png" style="width: 200px; height: auto;">
-    <img class="work" src="images/square.png" style="width: 200px; height: auto;">
-    <img class="work" src="images/square.png" style="width: 200px; height: auto;">
-    <img class="work" src="images/square.png" style="width: 200px; height: auto;">
-    <img class="work" src="images/square.png" style="width: 200px; height: auto;">
-    <img class="work" src="images/square.png" style="width: 200px; height: auto;">
-    <img class="work" src="images/square.png" style="width: 200px; height: auto;">
-    <img class="work" src="images/square.png" style="width: 200px; height: auto;">
+    <img class="work exhibit ux" src="images/work/1.jpg">
+    <img class="work tech built" src="images/work/2.jpg">
+    <img class="work built" src="images/work/3.jpg">
+    <img class="work exhibit" src="images/work/4.jpg">
+    <img class="work exhibit ilu" src="images/work/5.jpg">
+    <img class="work tech" src="images/work/6.jpg">
+    <img class="work ux built" src="images/work/7.jpg">
+    <img class="work tech" src="images/work/8.jpg">
+    <img class="work ilu ux" src="images/work/9.jpg">
+    <img class="work tech" src="images/work/10.jpg">
+</div>
+    
+<div class="footer">
+    <div class="flex" style="max-width: 700px; align-self: flex-end; padding: 0px 5px;"><p>I am interested in human-centered design topics, and collaborating on research, interactive, or space making projects. To reach out, find me on Instagram or Linkedin.</p>
+    </div>
+    <div style="display: flex; margin: auto; justify-content: center;">
+        <a class="nav-social" href="https://www.instagram.com/ktrocity/" target="_blank" alt="INSTAGRAM">
+            <img src="images/footer/Instagram.png" alt="Instagram" style="max-width: 75%; height: auto"></a>
+        <a class="nav-social" href="https://www.linkedin.com/in/kelirice" target="_blank" alt="LINKEDIN">
+            <img src="images/footer/Linkedin.png" alt="Linkedin" style="max-width: 75%; height: auto"></a>
+    </div>
 </div>
 
+<script  src="script/work.js"></script>        
+    
 </body>
 </html>
-
-

@@ -1,15 +1,41 @@
 /* Font Styles */  
 
-a.filter {
+button {
+background-color: #FFF;
+border: 0px;
 color: #2B2B2B;
 display: inline-block;
+font-weight: 500;
 padding: 20px;
 text-decoration: none;
 }
 
-a.filter:visited {
-color: #ff0000;
+button:active {
+background-color: #FFF;
+border: 0px;
+color: #2B2B2B;
 display: inline-block;
+font-weight: 700;
+padding: 20px;
+text-decoration: none;
+}
+
+button:visited {
+background-color: #FFF;
+border: 0px;
+color: #2B2B2B;
+display: inline-block;
+font-weight: 700;
+padding: 20px;
+text-decoration: none;
+}
+
+button:focus {
+background-color: #FFF;
+border: 0px;
+color: #2B2B2B;
+display: inline-block;
+font-weight: 700;
 padding: 20px;
 text-decoration: none;
 }
@@ -38,6 +64,12 @@ h2 b{
 font-weight: 550;
 }
 
+p {
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+
 /* Containers */  
 
 body {
@@ -58,6 +90,7 @@ margin: auto;
 display: flex;
 border-top: solid 1px #000;
 justify-content: space-around;
+margin: 50px 0px 0px 0px;
 padding: 20px 0px;
 }
 
@@ -68,7 +101,7 @@ border-bottom: solid 1px #000;
 }
 
 .white{
-padding: 50px;
+padding: 50px 0px 0px 50px;
 }
 
 .specialize{
@@ -86,14 +119,17 @@ margin: 20px 0px;
 }
 
 .work{
-padding: 10px 0px;
+height: 200px;
+width: auto;
 }
 
 .wrap{
+align-content: flex-start;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
+justify-content: flex-start;
 margin: 0px 120px;
+gap: 20px;
 }
 
 @media screen and (max-device-width: 800px) {
@@ -148,14 +184,17 @@ margin: 20px 0px;
 }
 
 .work{
-padding: 10px 0px;
+height: 200px;
+width: auto;
 }
 
 .wrap{
+align-content: flex-start;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
+justify-content: flex-start;
 margin: 0px 120px;
+gap: 10px;
 }
     
 }
