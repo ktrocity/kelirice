@@ -114,7 +114,7 @@ flex-wrap: wrap;
 justify-content: flex-start;
 margin: auto;
 max-width: 1600px;
-gap: 50px;
+gap: 10px;
 }
 
 @media screen and (max-device-width: 800px) {
