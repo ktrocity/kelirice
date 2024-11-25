@@ -26,19 +26,16 @@ function filterImages(button, filterClass) {
 
     images.forEach(image => {
         if (image.classList.contains(filterClass)) {
-            image.style.display = ''; // Show images with the matching class
+            image.style.display = '';
         } else {
-            image.style.display = 'none'; // Hide images without the matching class
+            image.style.display = 'none';
         }
     });
 }
 
-// Wait for the DOM to fully load
 document.addEventListener("DOMContentLoaded", () => {
-    // Select all buttons with the class 'all'
     const allButtons = document.querySelectorAll("button.all");
 
-    // Add the 'active' class to each button
     allButtons.forEach(button => {
         button.classList.add("active");
     });
