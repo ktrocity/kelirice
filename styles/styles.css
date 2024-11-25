@@ -1,43 +1,27 @@
 /* Font Styles */  
 
 button {
+align-items: center;
 background-color: #FFF;
 border: 0px;
 color: #2B2B2B;
-display: inline-block;
-font-weight: 500;
+display: inline-flex;
+font-weight: 400;
+height: 30px;
 padding: 20px;
 text-decoration: none;
 }
 
-button:active {
+button.active {
+align-items: center;
 background-color: #FFF;
-border: 0px;
+border-radius: 25px;
 color: #2B2B2B;
-display: inline-block;
-font-weight: 700;
+display: inline-flex;
+font-weight: 750;
+height: 30px;
 padding: 20px;
-text-decoration: none;
-}
-
-button:visited {
-background-color: #FFF;
-border: 0px;
-color: #2B2B2B;
-display: inline-block;
-font-weight: 700;
-padding: 20px;
-text-decoration: none;
-}
-
-button:focus {
-background-color: #FFF;
-border: 0px;
-color: #2B2B2B;
-display: inline-block;
-font-weight: 700;
-padding: 20px;
-text-decoration: none;
+text-decoration: underline;
 }
 
 a.nav-link:link {
@@ -119,7 +103,7 @@ margin: 20px 0px;
 }
 
 .work{
-height: 200px;
+height: 250px;
 width: auto;
 }
 
@@ -128,8 +112,9 @@ align-content: flex-start;
 display: flex;
 flex-wrap: wrap;
 justify-content: flex-start;
-margin: 0px 120px;
-gap: 20px;
+margin: auto;
+max-width: 1600px;
+gap: 50px;
 }
 
 @media screen and (max-device-width: 800px) {
