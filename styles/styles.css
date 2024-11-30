@@ -79,8 +79,9 @@ padding: 20px 0px;
 }
 
 .header{
+align-items: flex-end;
 display: flex;
-justify-content: end;
+justify-content: space-between;
 border-bottom: solid 1px #000;
 }
 
@@ -120,8 +121,6 @@ align-content: flex-start;
 display: flex;
 flex-wrap: wrap;
 justify-content: flex-start;
-margin: 0px 50px;
-gap: 10px;
 }
 
 /* images */
@@ -133,6 +132,7 @@ height: auto;
 
 .work{
 height: 300px;
+margin: 10px;
 width: auto;
 }
 
@@ -204,8 +204,8 @@ width: auto;
 }
     
 .work{
-height: 200px;
-width: auto;
+height: auto;
+width: 200px;
 }
 
     
