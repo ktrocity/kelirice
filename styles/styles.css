@@ -27,14 +27,14 @@ text-decoration: underline;
 a.nav-link:link {
 color: #2B2B2B;
 display: inline-block;
-padding: 20px;
+padding: 0px 20px;
 text-decoration: none;
 }
 
 a.nav-link:visited {
 color: #2B2B2B;
 display: inline-block;
-padding: 20px;
+padding: 0px 20px;
 text-decoration: none;
 }
 
@@ -80,9 +80,10 @@ padding: 20px 0px;
 
 .header{
 align-items: flex-end;
+border-bottom: solid 1px #000;
 display: flex;
 justify-content: space-between;
-border-bottom: solid 1px #000;
+padding: 20px;
 }
 
 .ypadded{
