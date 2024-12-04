@@ -1,4 +1,4 @@
-@media screen and (min-width: 801px) and (max-width: 1920px) {
+@media screen and (min-width: 801px) and (max-width: 2000px) {
 
 /* Font Styles */  
 
@@ -97,7 +97,7 @@ align-content: flex-end;
 display: flex;
 flex-direction: row;
 margin: auto;
-max-width: 1200px; 
+max-width: 1280px; 
 }
 
 .profile-blurb{
@@ -109,12 +109,11 @@ padding: 50px;
 display: block;
 }
 
-.specialize{
-justify-content: center;
-margin: auto;
-padding: 20px;
-}
-
+.tiles{
+max-width: 1280px;
+margin: auto;   
+}    
+    
 .title{
 display: block;
 font-size: 68px;
@@ -132,9 +131,21 @@ justify-content: flex-start;
 
 /* images */
 
+.about{
+align-self: center;     
+height: auto;
+width: 500px;
+}    
+    
 .case{
 width: 500px;
 height: auto;
+}
+    
+.specialize{
+justify-content: center;
+margin: auto;
+padding: 20px;
 }
 
 .work{

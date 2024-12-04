@@ -1,4 +1,4 @@
-@media screen and (min-width: 1921px) {
+@media screen and (min-width: 2001px) {
 
 /* Font Styles */  
 
@@ -8,6 +8,7 @@ background-color: #FFF;
 border: 0px;
 color: #2B2B2B;
 display: inline-flex;
+font-size: 20px;
 font-weight: 400;
 height: 30px;
 padding: 20px;
@@ -20,6 +21,7 @@ background-color: #FFF;
 border-radius: 25px;
 color: #2B2B2B;
 display: inline-flex;
+font-size: 20px;
 font-weight: 750;
 height: 30px;
 padding: 20px;
@@ -29,6 +31,7 @@ text-decoration: underline;
 a.nav-link:link {
 color: #2B2B2B;
 display: inline-block;
+font-size: 20px;
 padding: 0px 20px;
 text-decoration: none;
 }
@@ -36,13 +39,15 @@ text-decoration: none;
 a.nav-link:visited {
 color: #2B2B2B;
 display: inline-block;
+font-size: 20px;
 padding: 0px 20px;
 text-decoration: none;
 }
 
 h2 {
+font-size: 30px;
 font-weight: 400;
-line-height: 30px;
+line-height: 42px;
 text-align: left;
 }
 
@@ -51,8 +56,9 @@ font-weight: 550;
 }
 
 p {
+font-size: 24px;
 font-weight: 400;
-line-height: 24px;
+line-height: 36px;
 text-align: left;
 }
 
@@ -89,7 +95,7 @@ padding: 20px;
 }
 
 .ypadded{
-padding: 50px 0px 0px 50px;
+padding: 50px 300px;
 }
 
 .profile{
@@ -109,12 +115,11 @@ padding: 50px;
 display: block;
 }
 
-.specialize{
-justify-content: center;
-margin: auto;
-padding: 20px;
-}
-
+.tiles{
+max-width: 2200px;
+margin: auto;   
+}      
+    
 .title{
 display: block;
 font-size: 68px;
@@ -122,6 +127,14 @@ justify-self: left;
 text-align: left;
 margin: 20px 0px;
 }
+    
+.work{
+align-content: flex-end;
+display: flex;
+flex-direction: row;
+margin: auto;
+max-width: 2100px;     
+}    
 
 .wrap{
 align-content: flex-start;
@@ -132,9 +145,27 @@ justify-content: flex-start;
 
 /* images */
 
+.about{ 
+height: 900px;
+margin: auto;
+width: auto;
+}    
+    
 .case{
-width: 500px;
+width: 700px;
 height: auto;
+}
+    
+.portrait{
+max-height: 500px;
+margin: 10px;
+width: auto;
+}
+    
+.specialize{
+justify-content: center;
+margin: auto;
+padding: 20px;
 }
 
 .work{
