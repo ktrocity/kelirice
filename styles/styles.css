@@ -88,10 +88,10 @@ justify-content: space-between;
 padding: 20px;
 }
 
-.ypadded{
-padding: 50px 0px 0px 50px;
+.mobile-none{
+display: block;
 }
-
+    
 .profile{
 align-content: flex-end;
 display: flex;
@@ -104,9 +104,9 @@ max-width: 1280px;
 align-content: flex-end;
 padding: 50px;
 }
-
-.mobile-none{
-display: block;
+    
+.resp-pad{
+padding: 20px 0px;
 }
 
 .tiles{
@@ -134,22 +134,31 @@ justify-content: flex-start;
 .about{
 align-self: center;     
 height: auto;
-width: 500px;
+max-width: 500px;
 }    
     
 .case{
-width: 500px;
+max-width: 500px;
 height: auto;
 }
     
+.portrait{
+max-height: 300px;
+margin: 10px;
+width: auto;
+}
+    
+    
 .specialize{
 justify-content: center;
+max-height: 150px;
 margin: auto;
+width: auto;
 padding: 20px;
 }
 
 .work{
-height: 300px;
+max-height: 300px;
 margin: 10px;
 width: auto;
 }

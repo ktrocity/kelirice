@@ -94,7 +94,7 @@ justify-content: space-between;
 padding: 20px;
 }
 
-.ypadded{
+.resp-pad{
 padding: 50px 300px;
 }
 
@@ -146,13 +146,13 @@ justify-content: flex-start;
 /* images */
 
 .about{ 
-height: 900px;
+max-height: 900px;
 margin: auto;
 width: auto;
 }    
     
 .case{
-width: 700px;
+max-width: 700px;
 height: auto;
 }
     
@@ -164,12 +164,14 @@ width: auto;
     
 .specialize{
 justify-content: center;
+max-height: 200px;
 margin: auto;
+width: auto;
 padding: 20px;
 }
 
 .work{
-height: 500px;
+max-height: 500px;
 margin: 10px;
 width: auto;
 }

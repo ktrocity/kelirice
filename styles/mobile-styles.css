@@ -59,7 +59,7 @@ margin: 20px 0px;
 display: block;
 }
     
-.ypadded{
+.resp-pad{
 padding: 0px 10px;
 }
     
@@ -67,12 +67,12 @@ padding: 0px 10px;
 
 .about{
 align-self: center; 
-height: 200px;
+max-height: 200px;
 width: auto;
 }    
     
 .case{
-height: 200px;
+max-height: 200px;
 width: auto;
 }
     
@@ -84,7 +84,9 @@ margin: 0px;
     
 .specialize{
 justify-content: center;
+max-height: 150px;
 margin: auto;
+width: auto;
 padding: 20px;
 }
     
