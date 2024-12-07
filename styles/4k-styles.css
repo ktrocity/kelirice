@@ -95,7 +95,8 @@ padding: 20px;
 }
 
 .resp-pad{
-padding: 50px 300px;
+padding: 50px 200px;
+margin: auto;
 }
 
 .profile{
@@ -149,6 +150,11 @@ justify-content: flex-start;
 max-height: 900px;
 margin: auto;
 width: auto;
+}    
+
+.caligraphy{
+height: auto;
+width: 100%;
 }    
     
 .case{

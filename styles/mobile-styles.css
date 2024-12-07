@@ -1,10 +1,70 @@
 @media screen and (max-device-width: 800px) {
+
+/* Font Styles */  
+
+button {
+align-items: center;
+background-color: #FFF;
+border: 0px;
+color: #2B2B2B;
+display: inline-flex;
+font-weight: 400;
+height: 30px;
+padding: 20px;
+text-decoration: none;
+}
+
+button.active {
+align-items: center;
+background-color: #FFF;
+border-radius: 25px;
+color: #2B2B2B;
+display: inline-flex;
+font-weight: 750;
+height: 30px;
+padding: 20px;
+text-decoration: underline;
+}
+
+a.nav-link:link {
+color: #2B2B2B;
+display: inline-block;
+padding: 0px 20px;
+text-decoration: none;
+}
+
+a.nav-link:visited {
+color: #2B2B2B;
+display: inline-block;
+padding: 0px 20px;
+text-decoration: none;
+}
+
+h1 {
+font-weight: 500;
+line-height: 15px;
+text-align: left;
+}    
     
 h2 {
+font-size: 20px;
 font-weight: 400;
-line-height: 30px;
+line-height: 26px;
 text-align: center;
 }
+
+h2 b{
+font-weight: 550;
+}
+
+p {
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+
+/* Containers */      
+
 
 body {
 background-color: #fff;
@@ -66,10 +126,16 @@ padding: 0px 10px;
 /* images */
 
 .about{
-align-self: center; 
-max-height: 200px;
-width: auto;
-}    
+align-self: center;
+height: auto;
+width: 100%;
+margin: auto;
+}
+    
+.caligraphy{
+height: auto;
+width: 100%;
+}
     
 .case{
 max-height: 200px;
