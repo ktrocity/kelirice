@@ -40,8 +40,14 @@ padding: 0px 20px;
 text-decoration: none;
 }
 
+h1 {
+font-weight: 500;
+line-height: 15px;
+text-align: left;
+}    
+    
 h2 {
-font-weight: 400;
+font-weight: 500;
 line-height: 30px;
 text-align: left;
 }
@@ -70,6 +76,7 @@ font-weight: 400;
 display: flex;
 justify-content: center;
 margin: auto;
+max-width: 1100px;
 }
 
 .footer{
@@ -97,7 +104,7 @@ align-content: flex-end;
 display: flex;
 flex-direction: row;
 margin: auto;
-max-width: 1280px; 
+max-width: 1100px; 
 }
 
 .profile-blurb{
@@ -116,10 +123,10 @@ margin: auto;
     
 .title{
 display: block;
-font-size: 68px;
+font-size: 52px;
 justify-self: left;
 text-align: left;
-margin: 20px 0px;
+margin: 0px 40px;
 }
 
 .wrap{
@@ -134,16 +141,16 @@ justify-content: flex-start;
 .about{
 align-self: center;     
 height: auto;
-max-width: 500px;
+max-width: 450px;
 }    
     
 .case{
-max-width: 500px;
+max-width: 400px;
 height: auto;
 }
     
 .portrait{
-max-height: 300px;
+max-height: 425px;
 margin: 10px;
 width: auto;
 }
