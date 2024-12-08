@@ -93,6 +93,13 @@ display: flex;
 justify-content: space-between;
 padding: 20px;
 }
+    
+.intro{
+align-self: center;
+display: flex;
+max-width: 700px;        
+padding: 20px;
+}
 
 .resp-pad{
 padding: 50px 200px;
@@ -126,7 +133,6 @@ display: block;
 font-size: 68px;
 justify-self: left;
 text-align: left;
-margin: 20px 0px;
 }
     
 .work{
