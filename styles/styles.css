@@ -47,9 +47,9 @@ text-align: left;
 }    
     
 h2 {
-font-size: 24px;
+font-size: 28px;
 font-weight: 500;
-line-height: 32px;
+line-height: 40px;
 text-align: left;
 }
 
@@ -72,6 +72,10 @@ flex-direction: column;
 font-family: -apple-system, BlinkMacSystemFont, "Century Gothic", "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 font-weight: 400;
 }
+    
+.desktop-none{
+display: none;
+}
 
 .flex{
 display: flex;
@@ -79,7 +83,7 @@ justify-content: center;
 justify-items: center;
 justify-self: center;
 margin: auto;
-max-width: 1250px;
+max-width: 1200px;
 }
 
 .footer{
@@ -165,7 +169,7 @@ height: auto;
 }
     
 .portrait{
-max-height: 550px;
+max-height: 500px;
 margin: 10px;
 width: auto;
 }

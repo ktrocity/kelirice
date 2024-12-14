@@ -74,6 +74,10 @@ font-family: -apple-system, BlinkMacSystemFont, "Century Gothic", "Segoe UI", Ro
 font-weight: 400;
 }
     
+.desktop-none{
+display: block;
+}
+    
 .flex{
 display: block;
 margin: auto;
@@ -109,6 +113,7 @@ margin: auto;
 
 .title{
 display: block;
+font-size: 32px;
 justify-self: left;
 text-align: left;
 margin: 20px 0px;

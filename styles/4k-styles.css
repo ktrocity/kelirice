@@ -72,6 +72,10 @@ font-family: -apple-system, BlinkMacSystemFont, "Century Gothic", "Segoe UI", Ro
 font-weight: 400;
 }
 
+.desktop-none{
+display: none;
+}    
+    
 .flex{
 display: flex;
 justify-content: center;
