@@ -172,6 +172,24 @@ max-width: 700px;
 height: auto;
 }
     
+.profile{
+align-content: flex-end;
+display: flex;
+flex-direction: row;
+margin: auto;
+max-width: 1100px; 
+}
+
+.profile-blurb{
+align-content: flex-end;
+padding: 50px;
+}
+    
+.profile-support{
+max-width: 1280px;
+margin: auto;           
+}    
+    
 .portrait{
 max-height: 600px;
 margin: 10px;
@@ -184,6 +202,12 @@ max-height: 200px;
 margin: auto;
 width: auto;
 padding: 20px;
+}
+    
+.support{
+max-height: 200px;
+margin: 10px;
+width: auto;        
 }
 
 .work{
