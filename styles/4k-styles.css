@@ -121,6 +121,7 @@ max-width: 1800px;
 .profile-blurb{
 align-content: flex-end;
 padding: 50px;
+max-width: 1100px;
 }
 
 .mobile-none{
@@ -177,7 +178,7 @@ align-content: flex-end;
 display: flex;
 flex-direction: row;
 margin: auto;
-max-width: 1100px; 
+max-width: 1800px; 
 }
 
 .profile-blurb{
